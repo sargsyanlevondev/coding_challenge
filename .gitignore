@@ -1,0 +1,16 @@
+/.idea
+/node_modules
+/public/hot
+/public/storage
+/public/assets
+/public/vendors
+/public/build
+/public/app/*
+/public/invite.ics
+/storage/*.key
+/vendor
+/vendor/composer
+.idea
+.env
+.env.backup
+.idea

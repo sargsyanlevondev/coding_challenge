@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Hello World</h2>
+        <h2 class="text-center mt-3">Code Challenge</h2>
         <router-view></router-view>
     </div>
 </template>

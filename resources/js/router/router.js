@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Home from "../components/Home";
 
 Vue.use(VueRouter);
 
 const routes = [
     {
         path:'',
+        component:Home
     }
 ];
 
@@ -16,19 +18,3 @@ const router = new VueRouter({
 });
 
 export default router;
-
-// router.beforeEach((to, from, next) => {
-//     if (to.meta.requiresAuth) {
-//         const token = localStorage.getItem('token');
-//         if (token) {
-//             next();
-//         } else {
-//             next({path: '/login',
-//                 query: {
-//                     nextUrl: to.fullPath,
-//                 }});
-//         }
-//         next()
-//     }
-//     next()
-// })
